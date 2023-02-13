@@ -1,0 +1,162 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 50rem;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+}
+header {
+  height: 150px;
+  background-color: #993c6f;
+  position: relative;
+}
+
+header .imagem {
+  border: 15px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 10px;
+  left:72px;
+}
+
+.convite {
+  background-color: #340e68;
+  padding: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+.marsha{
+  height: 100px;
+  position: absolute;
+  left: 40px;
+  
+}
+.marsha-invertida{
+  height: 100px;
+  position: absolute;
+  right: 30px;
+  transform: scaleX(-1);
+}
+
+.nomes {
+  max-width: 250px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #993c6f;
+  color: #fff;
+
+  position: absolute;
+  z-index: 10;
+  left: 110px;
+  top: 210px;
+
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.nomes span{
+  font-size: 1.6rem;
+  line-height: 50%;
+}
+.local {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.local span{
+  font-size: 1.1rem;
+}
+
+.local .atencao{
+  font-size: 1.1rem;
+}
+
+.local .data{
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.local .endereco{
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.color{
+  font-size: 1.3rem;
+  color: #31AFD4;
+  color:#E59500;
+  font-weight: bold;
+}
+/* caveat, yanone, kallam, courgette, marck script, architects, itim */
+
+
+
+footer {
+  height: 200px;
+  background-color: #340e68;
+  padding: 20px;
+  color: white;
+}
+
+footer span{
+  color:#E59500;
+  font-size: 16px ;
+
+}
+
+footer img{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 590px;
+  left: 30px;
+}
+
+a {
+  background-color: #5ca3e4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+a:hover{
+  background-color: #91bde1;
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+  body {
+    max-width: 95%;
+  }
+  
+  .nomes {
+    max-width: 80%;
+}
+
+}
+
+
